@@ -102,7 +102,7 @@
   			color: black;
 		}	
 		.about_container {
-			height: 250px;	
+			height: 230px;	
 		}	
 
 
@@ -130,8 +130,7 @@ span {
 			 Full stack mobile, web developer and Machine Learning Enthu.
 		</div>
 		<div class="text-center">
-			<div class="display_picture" style="z-index: -1"> abcd</div>
-			<img class="display_picture" src="ps.jpg" style="z-index: 1">
+			<img class="display_picture" src="ps.jpg">
 		</div>
 	</div>
 </div>
