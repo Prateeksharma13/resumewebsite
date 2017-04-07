@@ -4,10 +4,12 @@
 <head>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Abel|Arvo|Indie+Flower" rel="stylesheet">
+
 
 	<script type="text/javascript">
 		document.addEventListener('DOMContentLoaded',function(event){
-  			var dataText = [ "My name is Prarthna Sabharwal. I have been passionate about technology from a very tender age and I always wanted to solve common yet complex problems around us. I started my career with a multi-national as a cloud engineer. I later started working with passionate entrepreneurs as a Product developer. I expertise in full stack android development, front-end web development and backend development. I have also worked with iOS platform, making me more aware about all platforms and end to end control over products at startups."];
+  			var dataText = [ "My name is Prarthna Sabharwal. I have been passionate about technology from a very tender age and I always wanted to solve common yet complex problems around us. I started my career with a multi-national as a cloud engineer. I later worked with passionate entrepreneurs as a Product developer. I expertise in full stack android development, front-end web development and backend development. I have also worked with iOS platform, giving me control over the whole technology stack with the start-ups I have worked with. I am open to innovative and challenging products, which make a world of a difference. I am also a Machine Learning entusiast and wish to work with products that like to crunch data to drive their business in the right direction. When I am not coding I like to read books and paint."];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -92,17 +94,18 @@
 		.about {
 			margin-top: 10px;
 			font-size: 40px;
-			font-family: leaf;
+			font-family: 'Indie Flower', cursive;
 		}
+		.about_content {
+			font-family: 'Abel', sans-serif;
+			font-size: 20px;
+  			color: black;
+		}	
+		.about_container {
+			height: 250px;	
+		}	
 
 
-
-
-h1 {
-  font-size: 20px;
-  color: black;
-  font-family: cursive;
-}
 
 span {
   border-right: .05em solid;
@@ -124,17 +127,22 @@ span {
 			Prarthna Sabharwal
 		</div>
 		<div class="white_font caption text-center">
-			Seasoned Full stack mobile & web developer
+			 Full stack mobile, web developer and Machine Learning Enthu.
 		</div>
 		<div class="text-center">
-			<img class="display_picture" src="ps.jpg">
+			<div class="display_picture" style="z-index: -1"> abcd</div>
+			<img class="display_picture" src="ps.jpg" style="z-index: 1">
 		</div>
 	</div>
 </div>
 <div class="container">
-	<div class="col-md-12">
+	<div class="col-md-12 about_container">
 		<div class="black_font about">About Me</div>
-		  <h1></h1>
+		  <h1 class="about_content"></h1>
+	</div>
+	<div class="col-md-12">
+		<div class="black_font about">Companies I have worked with</div>
+		  <h1 class="about_content"></h1>
 	</div>
 </div>
 </body>
