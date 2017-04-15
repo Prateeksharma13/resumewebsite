@@ -138,6 +138,10 @@
 	.black_font {
 		color:black;
 	}
+
+	.karmatop {
+		margin-top: 10px;
+	}
 	.name {
 		font-size: 80px;
 		margin-top: 30px;
@@ -348,7 +352,7 @@
 	<div class="col-md-12 companies">
 		<div class="black_font about">Companies I have worked with</div>
 	</div>
-	<div class="col-xs-12 jobs">
+	<div class="col-xs-12 karmatop">
 		<div class="karma_image col-md-4">	
 			  	<a href="http://www.karmacircles.com/" target="_blank"><img class="karma" src="karmacircles.png"></a>
 		</div>
@@ -366,7 +370,7 @@
 	</div>
 	<div class="col-md-12 jobs">
 		<div class="sukor_image text-center col-md-4">	
-			  	<a href="http://www.sukor.in/" target="_blank"><img class="sukor pull-left" src="sukor.png">
+			  	<a href="http://www.sukor.in/" target="_blank"><img class="sukor" src="sukor.png">
 			  	</a>
 		</div>
 		<div class="col-md-8">
@@ -382,7 +386,7 @@
 	</div>	
 	<div class="col-xs-12 jobs">
 		<div class="sukor_image text-center col-md-4">	
-			  	<a href="http://www.kleverkid.in/" target="_blank"><img class="pull-left" src="klevekid.jpg">
+			  	<a href="http://www.kleverkid.in/" target="_blank"><img src="klevekid.jpg">
 			  	</a>
 		</div>
 		<div class="col-md-8">
@@ -423,13 +427,13 @@
 		</a>	
 	</div>
 	<div class="col-md-4">
-		<a href="https://angel.co/prarthna-sabharwal">
+		<a href="https://angel.co/prarthna-sabharwal" target="_blank">
 			<img class="contact_logo" src="angel.png">
 		</a>	
 	</div>
 	<div class="col-md-4 text-center">
-		<i class="fa fa-envelope email text-center"></i>
-		<div style="font-family: leaf; font-size: 30px;"> prarthna.sl@gmail.com </div>
+		<a href="mailto:prarthna.sl@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope email text-center"></i>
+		<div style="font-family: leaf; font-size: 30px;"> prarthna.sl@gmail.com </div></a>
 	</div>
 	</div>		
 </div>
